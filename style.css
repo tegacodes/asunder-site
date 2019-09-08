@@ -1,13 +1,13 @@
 @font-face {
 	font-family: Arial;
-	src: url(Arial);
-	font-weight: normal;
+	src: url(Arial );
+	font-weight: lighter;
 	font-style: italic;
 }
 
 body {
 	font-family: "Nanum Gothic", sans-serif;
-	font-size: 1.6em;
+	font-size: 1.3em;
 	background-color: black;
 	color: white;
 	line-height: 1.3;
@@ -16,15 +16,17 @@ body {
 }
 
 a {
-	color: #182afa;
+	color: white;
 	text-decoration: none;
-	border-bottom: 2px solid #182afa;
+	
 }
 
 a:hover {
-	background-color: blue;
+
+	text-decoration: none;
+
 	color: white;
-	border-bottom: 2px solid #182afa;
+	border-bottom: 2px solid #fff;
 }
 
 h1 {
@@ -34,9 +36,34 @@ h1 {
 	color: white;
 }
 h2 {
-	font-size: 2em;
+	font-size: 2.5em;
 	text-decoration: none;
+	margin: 0.1em;
+	margin-left: 0.3em;
+
 }
+
+h3 {
+	font-size: 0.9em;
+	text-decoration: none;
+	margin: 0em;
+	margin-bottom: 1em;
+
+
+}
+
+h4 {
+
+	font-size: 0.9em;
+	margin-bottom: -0.8em;
+
+	}
+
+p {
+	font-size: 0.8em;
+}
+
+
 
 /*------------ CONTENT -----------*/
 
@@ -50,6 +77,19 @@ h2 {
 .titleImage {
 	width: 100%;
 	display: block;
+}
+
+.menu {
+	float: right;
+	font-size: 0.9em;
+	margin: 10px;
+	margin-top: -1.8em;
+
+}
+
+.caption {
+	font-size: 0.8em;
+	margin-bottom: em;
 }
 
 #push {
@@ -88,14 +128,14 @@ h2 {
 #topimage {
 	width: 100vw;
 	height: 100vh;
-	background: url(images/edit.jpg) no-repeat center;
+	background: url(images/edit-4.jpg) no-repeat center;
 	background-size: cover;
 }
 
 .midimage {
 	width: 100vw;
 	height: 100vh;
-	background: url(images/dubai.jpg) no-repeat center;
+	background: url(images/dubai-2.jpg) no-repeat center;
 	background-size: cover;
 }
 
